@@ -8,11 +8,11 @@ def index(request):
 
 def login(request):
     pass
-    return render(request,'login/index.html')
+    return render(request,'login/login.html')
 
 def register(request):
     pass
-    return render(request,'login/index.html')
+    return render(request,'login/register.html')
 
 def logout(request):
     pass
